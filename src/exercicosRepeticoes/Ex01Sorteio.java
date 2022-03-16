@@ -19,7 +19,7 @@ public class Ex01Sorteio {
 		
 		
 		Random gerador = new Random();
-		int aleatorio = gerador.nextInt(2);
+		int aleatorio = gerador.nextInt(100);
 	
 		Scanner entrada = new Scanner(System.in);
 	
@@ -33,7 +33,7 @@ public class Ex01Sorteio {
 			
 	while (num != aleatorio){
 		 
-		aleatorio = gerador.nextInt(2);
+		aleatorio = gerador.nextInt(100);
 		System.out.print("Digite um número\n ");
 		num = entrada.nextInt();
 		System.out.println(aleatorio);
